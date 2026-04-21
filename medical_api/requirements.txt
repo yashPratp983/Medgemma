@@ -1,0 +1,20 @@
+fastapi>=0.111.0
+uvicorn[standard]>=0.29.0
+pydantic>=2.7.0
+pydantic-settings>=2.2.0
+python-multipart>=0.0.9
+
+# Local MedGemma inference
+torch>=2.2.0
+transformers>=4.50.0       # Gemma 3 / MedGemma support starts at 4.50
+accelerate>=0.30.0         # required for device_map="auto"
+huggingface-hub>=0.23.0
+
+# Speech-to-text
+pydub>=0.25.1
+
+# Skin-disease image classifier
+tensorflow>=2.16.0
+peft>=0.11.0
+bitsandbytes>=0.43.0
+sentencepiece>=0.2.0
