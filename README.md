@@ -39,8 +39,8 @@ User Input
 Fine-tuned Gemma-2B on a curated ~190K-sample medical corpus using QLoRA to ground the model in medical language and structured reasoning.
 
 **Dataset (~190K samples after filtering):**
-- [PubMedQA](https://huggingface.co/datasets/pubmed_qa) — scientific QA
-- [MedMCQA](https://huggingface.co/datasets/medmcqa) — clinical MCQs
+- [PubMedQA](https://huggingface.co/datasets/qiaojin/PubMedQA) — scientific QA
+- [MedMCQA](https://huggingface.co/datasets/openlifescienceai/medmcqa) — clinical MCQs
 - [MedAlpaca](https://huggingface.co/datasets/medalpaca/medical_meadow_medqa) — instruction-style medical data
 
 **Training Config:**
