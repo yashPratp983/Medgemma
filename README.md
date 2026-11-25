@@ -121,7 +121,7 @@ google/gemma-2b
 
 Transfer learning approach with a frozen ResNet50 convolutional base and a custom dense classification head, trained on the DermNet dataset.
 
-**Dataset:** [DermNet](https://www.kaggle.com/datasets/shubhamgoel27/dermnet) — combined train/test splits  
+**Dataset:** [DermNet](https://github.com/mattgroh/fitzpatrick17k) — combined train/test splits  
 **Image size:** 224 × 224  
 **Augmentation:** zoom, horizontal flip  
 **Epochs:** 20  
